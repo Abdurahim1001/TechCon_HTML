@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+</head>
+<body>
+   <header>
+    <h1>Contact Us</h1>
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <p>For any inquiries, feel free to reach out via email: 
+            <a href="mailto:info@techcon2024.com">info@techcon2024.com</a>
+        </p>
+
+        <!-- Social Media Links -->
+        <div class="social-media">
+            <p>Follow us on social media:</p>
+            <a href="https://www.facebook.com/TechCon2024" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com/TechCon2024" target="_blank">Twitter</a>
+            <a href="https://www.linkedin.com/company/TechCon2024" target="_blank">LinkedIn</a>
+        </div>
+
+        <!-- Embedded Google Map for the Venue -->
+        <h2>Conference Venue</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345097974!2d144.95592831531488!3d-37.81720997975132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1a1df57%3A0x5045675218ce7e33!2sMelbourne%20Convention%20and%20Exhibition%20Centre!5e0!3m2!1sen!2sau!4v1634728379231!5m2!1sen!2sau" 
+            allowfullscreen="" loading="lazy"></iframe>
+    
+        <!-- Contact Form -->
+        <h2>Contact Us Form</h2>
+        <form action="/submit_contact_form" method="post">
+            
+            <!-- Name Field -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            
+            <!-- Email Field -->
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+            <!-- Message Field -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+    
+            <!-- Submit Button -->
+            <button type="submit">Send Message</button>
+    
+        </form>
+
+
+    </main>
+    <footer>
+    <p>&copy; 2024 TechCon. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
